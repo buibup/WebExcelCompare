@@ -51,11 +51,13 @@
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>
-                                    <asp:Button ID="btnCompare" runat="server" Text="COMPARE" OnClientClick="return CheckFileCompare();" /><br />
+                                    <asp:Button ID="btnCompare" runat="server" Text="COMPARE" OnClientClick="return CheckFileCompare();" OnClick="btnCompare_Click" /><br />
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">&nbsp;</td>
+                                <td colspan="2">
+                                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                </td>
                             </tr>
                         </table>
                     </td>
